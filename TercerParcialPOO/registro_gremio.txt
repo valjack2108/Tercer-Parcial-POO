@@ -1,0 +1,4 @@
+2026-11-18T23:50:23.483263700 - REGISTRO: Nombre: valIngrese el nombreNivel: 4Puntos de vida: 11
+2026-11-19T00:40:45.046696500 - REGISTRO: Nombre: valNivel: 4Puntos de vida: 10
+2026-11-19T00:41:11.419369400 - REGISTRO: Nombre: alejoNivel: 1Puntos de vida: 10
+2026-11-19T00:41:50.251240500 - REGISTRO: Nombre: jackNivel: 33Puntos de vida: 26

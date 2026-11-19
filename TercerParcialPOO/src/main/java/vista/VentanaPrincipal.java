@@ -10,6 +10,9 @@ package vista;
  */
 public class VentanaPrincipal extends javax.swing.JFrame {
     
+    private controlador.ControladorAventureros controlador =
+        new controlador.ControladorAventureros();
+    
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(VentanaPrincipal.class.getName());
 
     /**
@@ -42,10 +45,13 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel2.setText("Sistema de gestión de héroes");
 
         btnRegistrar.setText("Registrar aventurero");
+        btnRegistrar.addActionListener(this::btnRegistrarActionPerformed);
 
         btnListar.setText("Listar aventureros");
+        btnListar.addActionListener(this::btnListarActionPerformed);
 
         btnCombate.setText("Simular combate");
+        btnCombate.addActionListener(this::btnCombateActionPerformed);
 
         btnSalir.setText("Salir");
 
@@ -73,9 +79,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(27, 27, 27)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(39, 39, 39)
+                .addGap(18, 18, 18)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnRegistrar)
@@ -90,6 +96,22 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarActionPerformed
+       VentanaRegistro ventana = new VentanaRegistro(controlador);
+ventana.setVisible(true);
+// TODO add your handling code here:
+    }//GEN-LAST:event_btnRegistrarActionPerformed
+
+    private void btnListarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnListarActionPerformed
+VentanaListado ventana = new VentanaListado(controlador);
+ventana.setVisible(true);        // TODO add your handling code here:
+    }//GEN-LAST:event_btnListarActionPerformed
+
+    private void btnCombateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCombateActionPerformed
+       VentanaCombate ventana = new VentanaCombate(controlador);
+ventana.setVisible(true); // TODO add your handling code here:
+    }//GEN-LAST:event_btnCombateActionPerformed
 
     /**
      * @param args the command line arguments
