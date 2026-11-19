@@ -71,6 +71,7 @@ private void mostrarAventureros() {
         lblTitulo.setText("jLabel1");
 
         btnVolver.setText("Volver");
+        btnVolver.addActionListener(this::btnVolverActionPerformed);
 
         txtListado.setColumns(20);
         txtListado.setRows(5);
@@ -107,6 +108,10 @@ private void mostrarAventureros() {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnVolverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVolverActionPerformed
+this.dispose();        // TODO add your handling code here:
+    }//GEN-LAST:event_btnVolverActionPerformed
 
     /**
      * @param args the command line arguments

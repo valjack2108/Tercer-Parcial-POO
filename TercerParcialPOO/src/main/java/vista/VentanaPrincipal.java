@@ -54,6 +54,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         btnCombate.addActionListener(this::btnCombateActionPerformed);
 
         btnSalir.setText("Salir");
+        btnSalir.addActionListener(this::btnSalirActionPerformed);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -112,6 +113,19 @@ ventana.setVisible(true);        // TODO add your handling code here:
        VentanaCombate ventana = new VentanaCombate(controlador);
 ventana.setVisible(true); // TODO add your handling code here:
     }//GEN-LAST:event_btnCombateActionPerformed
+
+    private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
+int respuesta = javax.swing.JOptionPane.showConfirmDialog(
+    this,
+    "¿Estás seguro de que deseas salir?",
+    "Confirmar salida",
+    javax.swing.JOptionPane.YES_NO_OPTION
+);
+
+if (respuesta == javax.swing.JOptionPane.YES_OPTION) {
+    System.exit(0);
+}        // TODO add your handling code here:
+    }//GEN-LAST:event_btnSalirActionPerformed
 
     /**
      * @param args the command line arguments

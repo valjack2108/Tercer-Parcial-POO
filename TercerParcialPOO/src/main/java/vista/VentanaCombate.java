@@ -70,12 +70,14 @@ private void cargarAventureros() {
         jLabel1.setText("Selecciona un aventurero:");
 
         btnCombatir.setText("¡COMBATIR!");
+        btnCombatir.addActionListener(this::btnCombatirActionPerformed);
 
         txtResultado.setColumns(20);
         txtResultado.setRows(5);
         jScrollPane1.setViewportView(txtResultado);
 
         btnVolver.setText("Volver");
+        btnVolver.addActionListener(this::btnVolverActionPerformed);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -122,6 +124,25 @@ private void cargarAventureros() {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnCombatirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCombatirActionPerformed
+      if (cmbAventureros.getSelectedItem() == null) {
+    javax.swing.JOptionPane.showMessageDialog(
+        this, "No hay ningún aventurero seleccionado."
+    );
+    return;
+}
+
+String nombre = cmbAventureros.getSelectedItem().toString();
+
+String resultado = controlador.simularCombate(nombre);
+
+txtResultado.setText(resultado);  // TODO add your handling code here:
+    }//GEN-LAST:event_btnCombatirActionPerformed
+
+    private void btnVolverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVolverActionPerformed
+     this.dispose();   // TODO add your handling code here:
+    }//GEN-LAST:event_btnVolverActionPerformed
 
     /**
      * @param args the command line arguments

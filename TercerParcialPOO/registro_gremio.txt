@@ -2,3 +2,23 @@
 2026-11-19T00:40:45.046696500 - REGISTRO: Nombre: valNivel: 4Puntos de vida: 10
 2026-11-19T00:41:11.419369400 - REGISTRO: Nombre: alejoNivel: 1Puntos de vida: 10
 2026-11-19T00:41:50.251240500 - REGISTRO: Nombre: jackNivel: 33Puntos de vida: 26
+2026-11-19T01:05:20.511637800 - REGISTRO: Nombre: Ingrese el nombreNivel: 4Puntos de vida: 5
+2026-11-19T01:06:24.318759400 - REGISTRO: Nombre: Ingrese el nombreNivel: 2Puntos de vida: 4
+2026-11-19T01:07:03.773683100 - REGISTRO: Nombre: Ingrese el nombreNivel: 2Puntos de vida: 7
+2026-11-19T01:07:25.622940900 - COMBATE: El Guerrero Ingrese el nombre usa Oleada de Acción para realizar múltiples ataques físicos continuos.
+2026-11-19T01:07:38.629903100 - COMBATE: El Guerrero Ingrese el nombre usa Oleada de Acción para realizar múltiples ataques físicos continuos.
+2026-11-19T01:07:39.214932600 - COMBATE: El Guerrero Ingrese el nombre usa Oleada de Acción para realizar múltiples ataques físicos continuos.
+2026-11-19T01:13:50.562886900 - REGISTRO: Nombre: jackNivel: 5Puntos de vida: 10
+2026-11-19T01:14:27.307469700 - REGISTRO: Nombre: yoNivel: 8Puntos de vida: 10
+2026-11-19T01:14:43.211485300 - REGISTRO: Nombre: aleNivel: 8Puntos de vida: 10
+2026-11-19T01:14:56.948573600 - REGISTRO: Nombre: trNivel: 8Puntos de vida: 10
+2026-11-19T01:15:06.500315400 - REGISTRO: Nombre: aeNivel: 8Puntos de vida: 10
+2026-11-19T01:15:17.525038500 - REGISTRO: Nombre: 42Nivel: 8Puntos de vida: 10
+2026-11-19T01:15:38.732966 - REGISTRO: Nombre: fiNivel: 8Puntos de vida: 10
+2026-11-19T01:16:44.653448300 - COMBATE: El Explorador jack aplica Marca del Cazador sobre el objetivo para maximizar su daño sostenido.
+2026-11-19T01:16:57.796944900 - COMBATE: El Mago yo gasta un espacio de conjuro para lanzar una poderosa Bola de Fuego.
+2026-11-19T01:17:08.064716600 - COMBATE: El Clérigo ale usa Canalizar Divinidad para curar a sus aliados y expulsar muertos vivientes.
+2026-11-19T01:17:24.944662 - COMBATE: El Monje tr gasta puntos de Ki para ejecutar una Ráfaga de Golpes y un Ataque Aturdidor.
+2026-11-19T01:17:32.336997600 - COMBATE: El Paladín ae consume magia para imbuir su arma con un Castigo Divino de daño radiante.
+2026-11-19T01:17:44.017130800 - COMBATE: El Pícaro 42 aprovecha la ventaja táctica para asestar un Ataque Furtivo masivo y se reposiciona.
+2026-11-19T01:17:53.617157800 - COMBATE: El Bardo fi toca su instrumento para otorgar Inspiración Bárdica a un aliado.
